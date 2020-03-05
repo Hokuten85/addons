@@ -1,0 +1,20 @@
+//mr or //mirror
+
+//mr <Character Name>
+this will tell the addon to mirror attack target, switch target, and disengage.  Switch target it a bit goofy because SE sends contradicting packets, but it'll switch to the correct guy eventually
+
+//mr stop
+this will stop the addon from mirroring
+
+//mr action <ja, pet, ma> <ability,spell name>
+will use ability on main and mirroring character at the same time
+
+//mr action pet Assault
+//mr action ma "Carbuncle"
+//mr action ja "Double Punch"
+//mr action ja Release
+
+***The mirrored character can be anyone in your party.
+If the mirrored character is not running locally on your PC then it uses packets to determine actions
+If the mirrored character is running locally, you have the option to use windower messaging that send messages directly between game instances. This is much faster than waiting on packets. Just load Mirror on both characters, and then from the alt use //mr <main character>
+
